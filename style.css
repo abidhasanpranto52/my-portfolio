@@ -822,6 +822,11 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+    .home{
+        background: linear-gradient(to left, rgba(9, 10, 11, 0.815), rgba(0, 0, 0, 0.227)), url("images/responsive.jpg");
+        background-size: cover;
+        background-position: center;
+    }
     .home .home-content .text-2 {
         font-size: 50px;
     }
